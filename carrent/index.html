@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CarRent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo">CarRent</a>
+            <nav class="header__navigation">
+                <ul class="header__list">
+                    <li class="header__item">Home</li>
+                    <li class="header__item">Services</li>
+                    <li class="header__item">Cars</li>
+                    <li class="header__item">About</li>
+                    <li class="header__item">Blog</li>
+                    <li class="header__item">Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <form class="modal-car" action="" method="POST">
+            <h2 class="modal-car__title">Range Rover S7</h2>
+            <ul class="modal-car__description">
+                <li class="modal-car__item">
+                    <span class="modal-car__name">Doors</span>
+                    <span class="modal-car__value">4</span>
+                </li>
+                <li class="modal-car__item">
+                    <span class="modal-car__name">Seats</span>
+                    <span class="modal-car__value">6</span>
+                </li>
+                <li class="modal-car__item">
+                    <span class="modal-car__name">Lugage</span>
+                    <span class="modal-car__value">2 Suitcase/2 Bags</span>
+                </li>
+                <li class="modal-car__item">
+                    <span class="modal-car__name">Transmission</span>
+                    <span class="modal-car__value">Automatic</span>
+                </li>
+                <li class="modal-car__item">
+                    <span class="modal-car__name">Minium age</span>
+                    <span class="modal-car__value">Automatic</span>
+                </li>
+            </ul>
+            <div class="modal-car__submit">
+                <span class="modal-car__price">$150/day</span>
+                <button class="modal-car__btn" type="submit">Rent Now</button>
+            </div>
+        </form>
+        <form class="modal-trip" action="" method="POST">
+            <h2 class="modal-trip__title">Begin your trip here</h2>
+            <div class="modal-trip__rest">
+                <span class="modal-trip__rest--value">32</span>
+                <span>cars available</span>
+            </div>    
+            <div class="modal-trip__data">
+                <div class="modal-trip__from">
+                    <label for="modal-trip-from">Where you from</label>
+                    <input id="modal-trip-from" type="text" name="from"
+                    placeholder="Your pickup address">
+                </div>
+                <div class="modal-trip__to">
+                    <label for="modal-trip-to">Where you go</label>
+                    <input id="modal-trip-to" type="text" name="to"
+                    placeholder="Your drop-off address">
+                </div>
+                <div class="modal-trip__date-from">
+                    <label for="modal-trip-date-from">Journey date</label>
+                    <input id="modal-trip-date-from" type="text" name="date-from"
+                    placeholder="Your journey date">
+                </div>
+                <div class="modal-trip__date-to">
+                    <label for="modal-trip-date-to">Return date</label>
+                    <input id="modal-trip-date-to" type="text" name="date-to"
+                    placeholder="Your return date">
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </header>
+    <main class="main">
+        <h1 class="visually-hidden">Car rent</h1>
+        <section class="offers">
+            <div class="offers__left">
+                <h2>Our Offers</h2>
+                <p class="offers__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
+                <div class="offers__nav">
+                    <button>Previous</button>
+                    <span>/</span>
+                    <button>Next</button>
+                </div>
+            </div>
+            <div class="offers__right">
+                <div class="offers__item">
+                    <img class="offers__img" src="" alt="">
+                    <p class="offers__title">Range Rover S64 Coupe</p>
+                    <p class="offers__rating">*****</p>
+                    <div class="offers__price">
+                        <span>$250</span>
+                        <span>/day</span>
+                    </div>
+                    <ul class="offers__description">
+                        <li class="offers__item">
+                            <span class="offers__name">Doors</span>
+                            <span class="offers__value">4</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Seats</span>
+                            <span class="offers__value">5</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Transmission</span>
+                            <span class="offers__value">Automatic</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Minium age</span>
+                            <span class="offers__value">18 years</span>
+                        </li>
+                    </ul>
+                    <button>Rent Now</button>
+                </div>
+                <div class="offers__item">
+                    <img class="offers__img" src="" alt="">
+                    <p class="offers__title">Range Rover S64 Coupe</p>
+                    <p class="offers__rating">*****</p>
+                    <div class="offers__price">
+                        <span>$250</span>
+                        <span>/day</span>
+                    </div>
+                    <ul class="offers__description">
+                        <li class="offers__item">
+                            <span class="offers__name">Doors</span>
+                            <span class="offers__value">4</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Seats</span>
+                            <span class="offers__value">5</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Transmission</span>
+                            <span class="offers__value">Automatic</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Minium age</span>
+                            <span class="offers__value">18 years</span>
+                        </li>
+                    </ul>
+                    <button>Rent Now</button>
+                </div>
+                <div class="offers__item">
+                    <img class="offers__img" src="" alt="">
+                    <p class="offers__title">Range Rover S64 Coupe</p>
+                    <p class="offers__rating">*****</p>
+                    <div class="offers__price">
+                        <span>$250</span>
+                        <span>/day</span>
+                    </div>
+                    <ul class="offers__description">
+                        <li class="offers__item">
+                            <span class="offers__name">Doors</span>
+                            <span class="offers__value">4</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Seats</span>
+                            <span class="offers__value">5</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Transmission</span>
+                            <span class="offers__value">Automatic</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Minium age</span>
+                            <span class="offers__value">18 years</span>
+                        </li>
+                    </ul>
+                    <button>Rent Now</button>
+                </div>
+                <div class="offers__item">
+                    <img class="offers__img" src="" alt="">
+                    <p class="offers__title">Range Rover S64 Coupe</p>
+                    <p class="offers__rating">*****</p>
+                    <div class="offers__price">
+                        <span>$250</span>
+                        <span>/day</span>
+                    </div>
+                    <ul class="offers__description">
+                        <li class="offers__item">
+                            <span class="offers__name">Doors</span>
+                            <span class="offers__value">4</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Seats</span>
+                            <span class="offers__value">5</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Transmission</span>
+                            <span class="offers__value">Automatic</span>
+                        </li>
+                        <li class="offers__item">
+                            <span class="offers__name">Minium age</span>
+                            <span class="offers__value">18 years</span>
+                        </li>
+                    </ul>
+                    <button>Rent Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="services__item">
+                <span class="services__img flaticon-maintenance"></span>
+                <p class="services__title">Car Accessories</h3>
+                <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            </div>
+            <div class="services__item">
+                <span class="services__img flaticon-hubcap"></span>
+                <p class="services__title">Car Accessories</h3>
+                <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            </div>
+            <div class="services__item">
+                <span class="services__img flaticon-salesman"></span>
+                <p class="services__title">Car Accessories</h3>
+                <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            </div>
+        </section>
+        <section class="process">
+            <h2>How it works</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            <ul class="process_list">
+                <li class="process__item">
+                    <span class="process__number">01</span>
+                    <span class="process__title">Time & Place</span>
+                </li>
+                <li class="process__item">
+                    <span class="process__number">02</span>
+                    <span class="process__title">Car</span>
+                </li>
+                <li class="process__item">
+                    <span class="process__number">03</span>
+                    <span class="process__title">Details</span>
+                </li>
+                <li class="process__item">
+                    <span class="process__number">04</span>
+                    <span class="process__title">Checkout</span>
+                </li>
+                <li class="process__item">
+                    <span class="process__number">05</span>
+                    <span class="process__title">Done</span>
+                </li>
+            </ul>
+        </section>
+        <section class="customers">
+            <h2>Customer Testimony</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            <div class="customers__list">
+                <div class="customers__item">
+                    <p class="customers__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
+                    <div>
+                        <img src="" alt="">
+                        <span class="customers__title">Mike Fisher</span>
+                    </div>
+                </div>
+                <div class="customers__item">
+                    <p class="customers__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
+                    <div>
+                        <img src="" alt="">
+                        <span class="customers__title">Jean Stanley</span>
+                    </div>
+                </div>
+                <div class="customers__item">
+                    <p class="customers__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
+                    <div>
+                        <img src="" alt="">
+                        <span class="customers__title">Katie Rose</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <h2>Our Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            <div class="blog__list">
+                <div class="blog__item">
+                    <img class="blog__img" src="" alt="">
+                    <p class="blog__title">The best car rent in the entire planet</p>
+                    <div class="blog__create">
+                        <p class="blog__data">July 17, 2019</p>
+                        <span>by</span>
+                        <p class="blog__author">Admin</p>
+                    </div>
+                    <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                </div>
+                <div class="blog__item">
+                    <img class="blog__img" src="" alt="">
+                    <p class="blog__title">The best car rent in the entire planet</p>
+                    <div class="blog__create">
+                        <p class="blog__data">July 17, 2019</p>
+                        <span>by</span>
+                        <p class="blog__author">Admin</p>
+                    </div>
+                    <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                </div>
+                <div class="blog__item">
+                    <img class="blog__img" src="" alt="">
+                    <p class="blog__title">The best car rent in the entire planet</p>
+                    <div class="blog__create">
+                        <p class="blog__data">July 17, 2019</p>
+                        <span>by</span>
+                        <p class="blog__author">Admin</p>
+                    </div>
+                    <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__left">
+                <p class="footer__title">About Us</p>
+                <p class="footer__text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="footer__right">
+                <div class="footer__links">
+                    <p class="footer__links-title">Quick Links</p>
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item">About Us</li>
+                        <li class="footer__links-item">Testimonials</li>
+                        <li class="footer__links-item">Terms of Service</li>
+                        <li class="footer__links-item">Privacy</li>
+                        <li class="footer__links-item">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <p class="footer__links-title">Quick Links</p>
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item">About Us</li>
+                        <li class="footer__links-item">Testimonials</li>
+                        <li class="footer__links-item">Terms of Service</li>
+                        <li class="footer__links-item">Privacy</li>
+                        <li class="footer__links-item">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <p class="footer__links-title">Quick Links</p>
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item">About Us</li>
+                        <li class="footer__links-item">Testimonials</li>
+                        <li class="footer__links-item">Terms of Service</li>
+                        <li class="footer__links-item">Privacy</li>
+                        <li class="footer__links-item">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <p class="footer__links-title">Quick Links</p>
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item">About Us</li>
+                        <li class="footer__links-item">Testimonials</li>
+                        <li class="footer__links-item">Terms of Service</li>
+                        <li class="footer__links-item">Privacy</li>
+                        <li class="footer__links-item">Contact Us</li>
+                    </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="footer__bottom">
+            Copyright ©
+        </div>
+    </footer>
+  
+</body>
+</html>
